@@ -1,0 +1,24 @@
+name: Run Tests
+
+on: [push]  # This workflow runs every time code is pushed to GitHub
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu virtual machine
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3  # Pulls the latest code from GitHub
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'  # Ensures the correct Python version is installed
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+
+      - name: Run test script
+        run: python distance_classification.py
