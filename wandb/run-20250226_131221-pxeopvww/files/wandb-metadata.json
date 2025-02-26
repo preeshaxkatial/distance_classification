@@ -1,0 +1,31 @@
+{
+  "os":  "Windows-11-10.0.22631-SP0",
+  "python":  "CPython 3.12.9",
+  "startedAt":  "2025-02-26T07:42:21.808681Z",
+  "program":  "c:\\Users\\hp\\GitHub\\distance_classification\\PreeshaKatial_Lab5_Mlpr.ipynb",
+  "codePath":  "PreeshaKatial_Lab5_Mlpr.ipynb",
+  "git":  {
+    "remote":  "https://github.com/preeshaxkatial/distance_classification.git",
+    "commit":  "b91824c629c9394711a0c7e092329092e106ca5e"
+  },
+  "email":  "preesha.katial.ug23@plaksha.edu.in",
+  "root":  "c:\\Users\\hp\\GitHub\\distance_classification",
+  "host":  "DESKTOP-SCQ7MKA",
+  "executable":  "c:\\Users\\hp\\GitHub\\distance_classification\\venv\\Scripts\\python.exe",
+  "codePathLocal":  "PreeshaKatial_Lab5_Mlpr.ipynb",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "510748782592",
+      "used":  "227439685632"
+    }
+  },
+  "memory":  {
+    "total":  "8367099904"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}
